@@ -21,16 +21,16 @@ int main() {
         cout << "IMC: " << imc << endl;
 
         if (imc < 18.5) {
-            cout << "Classificacao: Abaixo do peso." << endl;
+            cout << "Classificação: Abaixo do peso." << endl;
         }
         else if (imc < 25) {
-            cout << "Classificacao: Faixa usual." << endl;
+            cout << "Classificação: Faixa usual." << endl;
         }
         else if (imc < 30) {
-            cout << "Classificacao: Sobrepeso." << endl;
+            cout << "Classificação: Sobrepeso." << endl;
         }
         else {
-            cout << "Classificacao: Obesidade." << endl;
+            cout << "Classificação: Obesidade." << endl;
         }
 
         cout << "O IMC e um indicador de triagem, nao um diagnostico individual." << endl;
