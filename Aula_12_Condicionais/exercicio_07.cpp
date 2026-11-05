@@ -8,19 +8,19 @@ int main() {
     cin >> idade;
 
     if (idade < 0) {
-        cout << "Idade invalida!" << endl;
+        cout << "Idade inválida!" << endl;
     }
     else if (idade <= 11) {
-        cout << "Faixa etaria: Crianca." << endl;
+        cout << "Faixa etária: Crianca." << endl;
     }
     else if (idade <= 17) {
-        cout << "Faixa etaria: Adolescente." << endl;
+        cout << "Faixa etária: Adolescente." << endl;
     }
     else if (idade <= 59) {
-        cout << "Faixa etaria: Adulto." << endl;
+        cout << "Faixa etária: Adulto." << endl;
     }
     else {
-        cout << "Faixa etaria: Idoso." << endl;
+        cout << "Faixa etária: Idoso." << endl;
     }
 
     return 0;
