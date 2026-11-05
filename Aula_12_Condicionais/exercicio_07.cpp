@@ -11,7 +11,7 @@ int main() {
         cout << "Idade inválida!" << endl;
     }
     else if (idade <= 11) {
-        cout << "Faixa etária: Crianca." << endl;
+        cout << "Faixa etária: Criança." << endl;
     }
     else if (idade <= 17) {
         cout << "Faixa etária: Adolescente." << endl;
